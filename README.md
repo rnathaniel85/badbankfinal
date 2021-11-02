@@ -9,6 +9,7 @@ Components
 - MongoDB
 - Bootstrap
 - Firebase
+- Docker
 
 Install
 1. Clone repo
