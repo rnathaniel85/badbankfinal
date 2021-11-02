@@ -1,6 +1,6 @@
 FROM node:slim
 
-MAINTAINER andrew <andrew@mit.edu>
+MAINTAINER Richie <rich@mit.edu>
 
 WORKDIR /app
 
@@ -12,4 +12,3 @@ RUN npm install
 RUN npm install express
 RUN npm install cors
 RUN npm install mongodb
-RUN node index.js
