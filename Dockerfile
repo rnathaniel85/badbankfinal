@@ -1,4 +1,15 @@
-FROM docker/whalesay:latest
-LABEL Name=badbank Version=0.0.1
-RUN apt-get -y update && apt-get install -y fortunes
-CMD ["sh", "-c", "/usr/games/fortune -a | cowsay"]
+FROM node:slim
+
+MAINTAINER andrew <andrew@mit.edu>
+
+WORKDIR /app
+
+# copy code, install npm dependencies
+COPY index.js /app/index.js
+COPY dal.js /app/dal.js
+COPY package.json /app/package.json
+RUN npm install
+RUN npm install express
+RUN npm install cors
+RUN npm install mongodb
+RUN node index.js
