@@ -3,8 +3,19 @@ var app     = express();
 var cors    = require('cors');
 var dal     = require('./dal.js');
 const e = require('express');
+var MongoClient = require('mongodb').MongoClient;
 const fireBaseApp = require('firebase/app').initializeApp;
 const firebaseAuth = require("firebase/auth");
+
+// the name "mongo" comes from the docker link, in the docker-compose.yml
+var url = 'mongodb://mongo:27017/dockerdemo';
+var db;
+
+MongoClient.connect(url, function (err, database) {
+    if(err){ console.log('failed to connect: ' + err); return;}
+    db = database;
+    console.log("Connected correctly to server!!");
+});
 
 // used to serve static files from public directory
 app.use(express.static('public'));
