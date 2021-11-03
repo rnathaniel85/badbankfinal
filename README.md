@@ -3,7 +3,7 @@ Bad Bank MERN App
 About 
 "Bad Bank is a Three tier banking App that has Front End, Back End and Database capabilities. This version of the App is my capstone for the Mit + xPro Full Stack Development course.
 
-Components 
+Stack Used for APP
 - React
 - Node.js
 - MongoDB
@@ -11,13 +11,14 @@ Components
 - Firebase
 - Docker
 
-Install
-1. Clone repo
-  - gh repo clone rnathaniel85/badbankfinal
-2. Install Packages
-  - npm install
-3. Run Node
-  - node index.js
+To Install
+Clone the project on to your machine, open the terminal and the following commands:
+npm init
+npm install express
+npm install cors
+npm install mongoDB
+docker run -p 27017:27017 -name badbank -d mongoDB
+node index.js
   
 License
 MIT License
