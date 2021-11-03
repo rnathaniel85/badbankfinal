@@ -19,7 +19,24 @@ To Install:
 - npm install mongoDB
 - docker run -p 27017:27017 -name badbank -d mongoDB
 - node index.js
-  
+
+Images
+- Log In
+![LOG IN PAGE](https://user-images.githubusercontent.com/78697102/140104685-d15baa1c-b690-4493-a093-17fd4e19f730.png)
+
+- Sign Up
+![SIGNUP](https://user-images.githubusercontent.com/78697102/140104736-578f3f3d-3b74-4e9d-bcf0-6e425b94fa92.png)
+
+- Log In Success
+![LOGO IN SUCCESS](https://user-images.githubusercontent.com/78697102/140104780-9c9a9b34-d5a5-4407-8cbd-8ae507d73c35.png)
+
+- Deposit 
+![DEPOSIT SCREEN](https://user-images.githubusercontent.com/78697102/140104835-7a554d01-7432-4b9a-8b99-8f89c3ec9f43.png)
+
+-Withdraw
+![WITHDRAW SCREEN](https://user-images.githubusercontent.com/78697102/140104886-401f6340-4de4-43cc-ba08-9d814f39768e.png)
+
+
 License
 MIT License
 
