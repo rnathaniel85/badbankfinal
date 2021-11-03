@@ -10,7 +10,7 @@ COPY index.js     /app/index.js
 COPY dal.js       /app/dal.js
 # Front End Files
 COPY public/index.html        /app/public/index.html 
-COPY public/activity.js       /app/public/activity.js
+COPY public/alldata.js       /app/public/alldata.js
 COPY public/context.js        /app/public/context.js
 COPY public/createaccount.js  /app/public/createaccount.js
 COPY public/deposit.js        /app/public/deposit.js   
