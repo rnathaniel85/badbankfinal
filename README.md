@@ -12,13 +12,13 @@ Stack Used for APP
 - Docker
 
 To Install
-Clone the project on to your machine, open the terminal and the following commands:
-npm init
-npm install express
-npm install cors
-npm install mongoDB
-docker run -p 27017:27017 -name badbank -d mongoDB
-node index.js
+-Clone the project on to your machine, open the terminal and the following commands:
+-npm init
+-npm install express
+-npm install cors
+-npm install mongoDB
+-docker run -p 27017:27017 -name badbank -d mongoDB
+-node index.js
   
 License
 MIT License
