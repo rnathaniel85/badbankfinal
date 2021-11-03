@@ -1,12 +1,13 @@
-mongo:
+mongo: 
   image: mongo
-  ports:
+  ports: 
     - "27017:27017"
   restart: always
+
 web:
   build: .
-  ports:
-    - "3000:8080"
-  links:
+  ports: 
+    - "3000:3000"
+  links: 
     - mongo
   command: node index.js
