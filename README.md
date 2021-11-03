@@ -13,7 +13,7 @@ Stack Used for APP
 
 To Install:
 - Clone the project on to your machine, open the terminal and the following commands
-- npm init
+- npm init -y
 - npm install express
 - npm install cors
 - npm install mongoDB
